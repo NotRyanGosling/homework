@@ -1,0 +1,29 @@
+.upper-block{
+    background-color: grey;
+    color: white;
+}
+
+.text{
+    color: blueviolet;
+}
+
+.red-box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.title-elements{
+    color: black;
+    margin: 0;
+}
+
+.elements{
+    background-color: #d871ec;
+    color: white;
+    max-width: 300px;
+}
+
+.element-unit{
+    background-color: #934aa1;
+}
