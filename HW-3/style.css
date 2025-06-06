@@ -37,3 +37,7 @@ footer{
     color: white;
     height: 300px;
 }
+
+footer>a:link {
+    color: white;
+}
