@@ -1,0 +1,39 @@
+
+
+header{
+    background-color: coral;
+    text-align: left;
+    height: 60px;
+}
+
+nav>ul{
+    padding: 0;
+}
+
+nav>ul>li{
+    display: inline; /* в документации вычитал :)*/
+}
+
+img{
+    height: 200px;
+    width: auto;
+}
+
+blockquote{
+    background-color: darkgoldenrod;
+    margin: 16px 0;
+}
+
+blockquote>p{
+    padding-left: 50px;
+}
+
+cite{
+    font-style: normal;
+}
+
+footer{
+    background-color: blueviolet;
+    color: white;
+    height: 300px;
+}
