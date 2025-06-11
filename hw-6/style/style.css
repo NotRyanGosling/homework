@@ -1,0 +1,121 @@
+body{
+    max-width: 1440px;
+    background-color: #181E34;
+    font-family: "Montserrat";
+}
+
+header{
+    background-color: #181E34;
+    height: 114px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    height: 48px;
+    width: 48px;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 410px;
+    margin-right: 34px;
+    width: 290px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+}
+
+
+.login{
+    border-radius: 100px;
+    padding: 14px 30px;
+    width: 113px;
+    height: 48px;
+    background-color: #fff;
+    color: #2766ae;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.sec-1{
+    background-image: url(../images/section-web.png);
+    height: 508px;
+}
+
+.sec-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.sec-1--title{
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase; 
+    margin-bottom: 60px;
+}
+
+.sec-1--content{
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.sec-1--text-wrapper{
+    width: 436px;
+}
+
+.sec-1--text-1{
+    display: inline;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.sec-1--text-ipsum{
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #01a2cb;
+    margin-left: 4px;
+}
+
+.sec-1--text-2{
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.sec-1--buttons{
+    display: flex;
+    flex-direction: column;
+   gap: 10px;
+   align-items: center;
+   justify-content: center; 
+}
+
+.sec-1--buttons>button{
+    border-radius: 100px;
+    padding: 18px 30px;
+    width: 320px;
+    height: 56px;
+    background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.sec-1--buttons>button>img{
+    width: 16px;
+    height: 16px;
+}
