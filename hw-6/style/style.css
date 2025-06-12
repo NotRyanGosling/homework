@@ -1,7 +1,10 @@
 body{
-    max-width: 1440px;
+    min-width: 1440px;
     background-color: #181E34;
-    font-family: "Montserrat";
+    font-family: "Montserrat", "Arial";
+    color: #fff;
+    line-height: 150%;
+    font-size: 16px;
 }
 
 header{
@@ -27,8 +30,6 @@ header{
     height: 24px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
-    color: #fff;
 }
 
 
@@ -45,16 +46,16 @@ header{
 }
 
 .sec-1{
-    background-image: url(../images/section-web.png);
-    height: 508px;
-}
-
-.sec-1{
+    background: url(../images/section-web.png) no-repeat center / cover;
+    min-height: 508px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #fff;
 }
 
 .sec-1--title{
@@ -78,7 +79,6 @@ header{
     display: inline;
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
 }
 
 .sec-1--text-ipsum{
@@ -93,15 +93,14 @@ header{
     margin-top: 15px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
 }
 
 .sec-1--buttons{
     display: flex;
     flex-direction: column;
-   gap: 10px;
-   align-items: center;
-   justify-content: center; 
+    gap: 10px;
+    align-items: center;
+    justify-content: center; 
 }
 
 .sec-1--buttons>button{
@@ -112,10 +111,125 @@ header{
     background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
     font-weight: 500;
     font-size: 16px;
-    text-align: center;
 }
 
 .sec-1--buttons>button>img{
     width: 16px;
     height: 16px;
+}
+
+.sec-2 {
+    margin: 120px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec-2--content {
+    width: 910px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec-2--title>h2{
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.sec-2-desc > p {
+    max-width: 513px;
+    margin: 15px 0;
+}
+
+.sec-2--cards {
+    margin-top: 60px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 28px;  
+    display: inline-flex;
+}
+
+.sec-2--cards-unit{
+    border: 2px solid #176bae;
+    border-radius: 16px;
+    padding: 28px;
+    width: 204px;
+    height: 141px;
+    box-shadow: 4px 4px 13px 0 rgba(5, 13, 41, 0.76);
+    background: #197cb8;  
+}
+
+.sec-2--cards-unit-title{
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase; 
+    padding-bottom: 10px;   
+}
+
+.sec-2--cards-unit-desc{
+   font-weight: 400;
+    font-size: 16px;
+    text-align: center; 
+}
+
+.sec-2--content>button{
+    margin-top: 30px;
+    border-radius: 100px;
+    padding: 18px 30px;
+    width: 436px;
+    height: 56px;
+    background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);    
+}
+
+.line{
+    background-color: #5f5f614f;
+    height: 1px;
+    margin-bottom: 60px;
+}
+
+footer{
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.footer-content{
+    max-width: 910px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.about{
+    width: 267px;
+    height: 159px;
+    text-align: left;
+    margin-right: 197px;
+}
+
+.about>p{
+    margin-top: 15px;
+}
+
+.footer--list-title{
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;  
+    margin-bottom: 20px;  
+}
+.footer--list-1>ul, .footer--list-2>ul{
+    font-weight: 400;
+    font-size: 16px;
+    gap: 10px;
+    text-align: left;
+}
+
+.footer--list-1{
+   margin-right: 117px; 
 }
