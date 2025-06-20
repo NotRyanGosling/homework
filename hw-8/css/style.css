@@ -1,0 +1,46 @@
+*{
+    color: rgb(199, 192, 192);
+    font-size: large;
+    font-weight: 600;
+    line-height: 150%;
+    text-align: left;
+}
+
+body{
+     background-color: rgb(53, 52, 52);
+}
+
+p{
+    padding-right: 30px;
+    word-spacing: 10px;
+}    
+
+.bookmark{
+    display: flex;
+}
+
+.label{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: auto 50px 100px auto;
+    width: calc(50vw - 50px);
+}
+
+
+.label__red{
+    content: "";
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(233, 78, 78);
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.label__white{
+    content: "";
+    min-height: 100px;
+    background-color: rgb(231, 223, 223);
+    border-radius: 15px;
+}
