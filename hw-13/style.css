@@ -1,0 +1,17 @@
+body{
+    background: url(./img/gigil.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 98vh;
+    background-color: rgb(133, 131, 131);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #5d8542;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
