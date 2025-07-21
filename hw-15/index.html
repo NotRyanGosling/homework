@@ -8,14 +8,17 @@
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="body ">
+<body class="body">
     <div class="wrapper">
         <header class="header">
             <div class="container">
                 <div class="header__top">
                     <div class="container">
                         <div class="header__top-inner">
-                            <img src="./img/icons/logo/logo-Dark.svg" alt="Логотип компании" class="header__logo">
+                            <a href="#" class="header__logo">
+                                <img src="./img/icons/logo/logo-Dark.svg" alt="Логотип компании">
+                            </a>
+                            
                             <nav class="nav">
                                 <ul class="nav__list">
                                     <li class="nav__item">
@@ -53,6 +56,12 @@
                             <p class="hero__text">
                                 За 8 практических занятий ты получишь новые возможности для самореализации и любимое дело
                             </p>
+                            <div class="hero__img-control hero__img-control--mobile">
+                                <a  data-fslightbox href="../video/cake.mp4" class="hero__img-button">
+                                  <img src="./img/icons/play.svg" alt="">  
+                                </a>
+                                Посмотри, как готовятся наши торты
+                            </div>
                             <a href="#" class="hero__button button">
                                 Записаться на курс
                             </a>
@@ -60,7 +69,7 @@
                         <div class="hero__img">
                             <img src="./img/content/girl-with-bake.png" alt="Девушка с тортом в руках">
                             <div class="hero__img-control">
-                                <a  data-fslightbox href="../video/cake.mp4" class="hero__img-button">
+                                <a  data-fslightbox="video" href="../video/cake.mp4" class="hero__img-button">
                                   <img src="./img/icons/play.svg" alt="">  
                                 </a>
                                 Посмотри, как готовятся наши торты
