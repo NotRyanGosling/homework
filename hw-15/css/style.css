@@ -791,6 +791,9 @@
   }
 }
 @media (max-width: 800px) {
+  html{
+    scroll-padding-top: 50px;
+  }
   .hero__content {
     max-width: none;
     display: flex;
@@ -906,6 +909,7 @@
     padding: 17px 30px;
     font-size: 28px;
   }
+  
   .accordion-list__control-icon {
     width: 26px;
     height: 26px;
