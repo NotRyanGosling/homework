@@ -2,6 +2,8 @@
  --general-text: #312c27;
  --accent-text: #1f1711;
  --accent-color: #ffa55c;
+ --accent-color-2: #ceaad0;
+ --input-color: #ac907a;
  --general-bg: #fff9f4;
  --accent-bg: #ffe0cb;
  --transition: all .4s;
@@ -43,7 +45,6 @@
 .main__testimonials {
     padding-bottom: 145px;
 }
-
 .container{
     max-width: 1310px;
     margin: 0 auto;
@@ -163,7 +164,7 @@
 }
 .modal__cancel:hover path,
 .modal__cancel:hover rect{
-    stroke: #ac907a;
+    stroke: var(--input-color);
 }
 .modal__img {
     margin: -65px 0 15px 13px;
@@ -191,7 +192,7 @@
     top: 12px;
     left: 28px;
     font-size: 11px;
-    color: #ac907a;
+    color: var(--input-color);
     width: 86px;
     opacity: 0;
     visibility: hidden;
@@ -201,14 +202,14 @@
     display: block;
     width: 100%;
     background: transparent;
-    border: 1px solid #ac907a;;
+    border: 1px solid var(--input-color);;
     border-radius: 100px;
     padding: 19px 42px 19px 28px;
     font-size: 16px;
     transition: var(--transition);
 }
 .field__input::placeholder{
-    color: #ac907a;
+    color: var(--input-color);
     transition: var(--transition);
 }
 .field__input:hover{
