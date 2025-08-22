@@ -1,0 +1,63 @@
+.footer {
+  background-color: var(--general-color);
+  font-family: "Open Sans";
+  color: var(--accent-bg);
+  line-height: 1.4;
+  font-size: 18px;
+  padding: 50px 0 60px;
+}
+.footer__inner {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 50px .5fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 30px 223px;
+}
+.footer__logo {
+    grid-column: 1 / 5;
+    grid-row: 1;
+    display: block;
+}
+.footer__logo img{
+    max-width: 183px;
+    max-height: 73px;
+}
+.footer__title {
+  font-family: "NAMU";
+  font-weight: 900;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer__col-item {
+    display: flex;
+    margin-bottom: 6px;
+    flex-wrap: nowrap;
+    color: #b6b6b6;
+}
+.footer__col-item:last-child{
+    margin-bottom: 0;
+}
+.footer__contact {
+    grid-column: -3 / -1;
+    grid-row: 2;
+    justify-self: center;
+}
+.footer__phone {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.contact__socials {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.footer__col-rights {
+    grid-column: -4 / -1;
+    justify-self: start;
+    grid-row: 3;
+    text-align: right;
+    margin-left: 240px;
+    color: #b6b6b6;
+}
